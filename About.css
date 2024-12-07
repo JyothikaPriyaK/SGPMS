@@ -1,0 +1,65 @@
+.back-button {
+    background-color: beige; /* No background */
+    border: none; /* No border */
+    color: #a70a4b; /* Color for the text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    margin: 20px; /* Margin to space it from the top */
+}
+
+.back-button:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.about-container {
+    background-color: beige; /* Light background */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Change font as desired */
+}
+
+.about-title {
+    font-size: 2.5em;
+    color: #a70a4b; /* Title color */
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    width: 300px; /* Adjust image size */
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1.2em;
+    color: #333; /* Text color */
+    max-width: 600px; /* Limit text width */
+}
+
+.contact-title {
+    font-size: 2em;
+    color: #a70a4b; /* Title color */
+    margin-top: 40px;
+}
+
+.contact-info {
+    font-size: 1em;
+    color: #555; /* Text color */
+}
+
+.social-media a {
+    color: #a70a4b; /* Social media link color */
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

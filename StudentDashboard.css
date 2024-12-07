@@ -1,0 +1,52 @@
+/* General dashboard styles */
+.student-dashboard {
+    background-color: beige;
+    height: 100vh;
+    color: #a70a4b;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #a70a4b;
+    color: white;
+  }
+  
+  .left-corner {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .right-corner ul {
+    
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .right-corner ul li {
+    color: beige;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .right-corner ul li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content section */
+  .content-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  

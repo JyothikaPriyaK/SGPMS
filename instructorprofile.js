@@ -1,0 +1,1 @@
+<Profile userType="instructor" profileData={instructorProfileData} />

@@ -1,0 +1,110 @@
+.admin-dashboard {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #a70a4b;
+  color: white;
+}
+
+.left-corner {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-corner ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.right-corner li {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.right-corner li:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.admin-title {
+  text-align: center;
+  color: #a70a4b;
+}
+
+.project-status-section {
+  margin-top: 20px;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #a70a4b;
+}
+
+.project-status-section h2 {
+  text-align: center;
+  color: #a70a4b;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.project-table th, .project-table td {
+  border: 1px solid #a70a4b;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-table th {
+  background-color: #a70a4b;
+  color: white;
+}
+
+.add-project-form {
+  margin-top: 20px;
+}
+
+.add-project-form input {
+  width: 30%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #a70a4b;
+  border-radius: 5px;
+}
+
+.add-project-form button {
+  padding: 10px 20px;
+  background-color: #a70a4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-project-form button:hover {
+  background-color: #890b3e;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #a70a4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #890b3e;
+}

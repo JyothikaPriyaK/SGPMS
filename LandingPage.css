@@ -1,0 +1,70 @@
+/* src/LandingPage.css */
+
+/* Main container styling */
+.landing-page {
+  background-color: beige;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:#a70a4b;
+  color: white;
+  font-weight: bold;
+}
+
+/* Left corner - Teammates text */
+header .left-corner {
+  color: beige;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+/* Right corner - navigation links */
+header .right-corner {
+  display: flex;
+  gap: 20px;
+}
+
+header .right-corner a {
+  color: beige;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+header .right-corner a:hover {
+  text-decoration: underline;
+}
+
+/* Main content text styling */
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 48px;
+  color: #a70a4b;
+  margin: 0;
+}
+
+/* Footer styling */
+footer {
+  padding: 10px;
+  background-color: #a70a4b;
+  color: white;
+  text-align: center;
+}

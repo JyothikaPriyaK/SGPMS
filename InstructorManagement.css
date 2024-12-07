@@ -1,0 +1,62 @@
+.management-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #a70a4b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #a70a4b;
+    margin-bottom: 20px;
+  }
+  
+  .add-student, .add-project, .add-instructor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-student input, .add-project input, .add-instructor input {
+    padding: 8px;
+    margin: 0 10px;
+    border: 1px solid #a70a4b;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #a70a4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #890b3e;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid #a70a4b;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #a70a4b;
+    color: white;
+  }
+  

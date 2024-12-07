@@ -1,0 +1,74 @@
+/* src/components/Profile.css */
+
+/* Background for the profile page */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1; /* Light background to match a clean look */
+}
+
+h2 {
+    color: #0056b3; /* Dark blue for headings */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Styling the profile card */
+.profile-card {
+    display: flex;
+    background: #ffffff; /* White background for profile card */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 4px solid #0056b3; /* Blue border around the profile picture */
+}
+
+/* Profile details section */
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    color: #333; /* Dark grey text for details */
+}
+
+.profile-details h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333; /* Dark text for the name */
+}
+
+.profile-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.profile-details strong {
+    color: #0056b3; /* Blue color for labels */
+}
+
+/* Buttons (if you plan to add edit/save buttons or actions) */
+button {
+    background-color: #0056b3; /* Blue background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+}

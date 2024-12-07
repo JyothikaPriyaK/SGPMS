@@ -1,0 +1,95 @@
+.submissions-container {
+  max-width: 80%;
+  margin: 50px auto;
+  background-color: #fdf7f7;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #a70a4b;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #a70a4b;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #a70a4b;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #a70a4b;
+  color: white;
+  font-size: 1.2em;
+}
+
+td input[type="text"] {
+  padding: 8px;
+  width: 120px;
+  border: 1px solid #a70a4b;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #a70a4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #890b3e;
+}
+
+button:disabled {
+  background-color: #d3a4b8;
+  cursor: not-allowed;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9e6ea;
+}
+
+table tbody tr:hover {
+  background-color: #ffe8f1;
+}
+
+@media (max-width: 768px) {
+  .submissions-container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  table, th, td {
+    font-size: 0.9em;
+  }
+
+  td input[type="text"] {
+    width: 100px;
+  }
+
+  button {
+    font-size: 0.8em;
+    padding: 6px 12px;
+  }
+}

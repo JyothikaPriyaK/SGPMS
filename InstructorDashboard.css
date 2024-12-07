@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .instructor-dashboard {
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a70a4b;
+    color: white;
+  }
+  
+  .left-corner {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .right-corner ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right-corner li {
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .right-corner li:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  h2 {
+    color: #a70a4b;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Left-align the dashboard sections */
+  .dashboard-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Limit the width of the buttons container */
+  }
+  
+  .section {
+    background-color: #a70a4b;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section:hover {
+    background-color: #890b3e;
+  }
+  
